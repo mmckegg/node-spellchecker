@@ -17,7 +17,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/mmckegg/node-spellchecker/raw/master/LICENSE.md"
+      "url": "http://github.com/ssbc/paulcbetts-spellchecker-prebuilt/raw/master/LICENSE.md"
     }
   ],
   "main": "./lib/spellchecker.js",
@@ -31,7 +31,7 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmckegg/node-spellchecker.git"
+    "url": "git+https://github.com/ssbc/paulcbetts-spellchecker-prebuilt.git"
   },
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",

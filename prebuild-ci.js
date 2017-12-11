@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 // forked to run prebuild --all
+// see https://github.com/prebuild/prebuild-ci/issues/8
 
 var exec = require('child_process').exec
 var spawn = require('cross-spawn')
