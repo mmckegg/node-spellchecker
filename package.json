@@ -35,8 +35,8 @@
   },
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
-    "test": "prebuild-ci",
+    "test": "node ./prebuild-ci",
     "prebuild": "prebuild --all --strip --verbose"
   },
-  "version": "4.0.6-prebuild"
+  "version": "4.0.6"
 }
