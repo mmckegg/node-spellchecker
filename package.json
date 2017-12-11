@@ -1,29 +1,36 @@
 {
-  "main": "./lib/spellchecker.js",
-  "name": "spellchecker",
+  "bugs": {
+    "url": "https://github.com/atom/node-spellchecker/issues"
+  },
+  "dependencies": {
+    "nan": "^2.0.0"
+  },
   "description": "Bindings to native spellchecker",
-  "version": "2.0.0",
+  "devDependencies": {
+    "jasmine-focused": "1.x"
+  },
+  "directories": {},
   "licenses": [
     {
       "type": "MIT",
       "url": "http://github.com/atom/node-spellchecker/raw/master/LICENSE.md"
     }
   ],
+  "main": "./lib/spellchecker.js",
+  "maintainers": [
+    {
+      "name": "paulcbetts",
+      "email": "paul@paulbetts.org"
+    }
+  ],
+  "name": "@paulcbetts/spellchecker",
+  "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/node-spellchecker.git"
+    "url": "git+https://github.com/atom/node-spellchecker.git"
   },
-  "bugs": {
-    "url": "https://github.com/atom/node-spellchecker/issues"
-  },
-  "homepage": "http://atom.github.io/node-spellchecker",
   "scripts": {
-    "test": "jasmine-focused --captureExceptions --coffee spec/"
+    "install": "node-gyp rebuild"
   },
-  "devDependencies": {
-    "jasmine-focused": "1.x"
-  },
-  "dependencies": {
-    "nan": "https://atom.io/download/atom-shell/nan-1.6.1.tgz"
-  }
+  "version": "4.0.6"
 }
