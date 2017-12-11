@@ -9,6 +9,7 @@
   "description": "Bindings to native spellchecker",
   "devDependencies": {
     "jasmine-focused": "1.x",
+    "node-gyp": "^3.6.2",
     "prebuild": "^7.0.0",
     "prebuild-ci": "^2.2.3"
   },
